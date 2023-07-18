@@ -1,0 +1,74 @@
+* reset */
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/*  */
+
+header{
+
+    background-color: blue;
+
+}
+
+header div {
+
+background-color: gold;
+
+}
+
+.navbar{
+
+    list-style: none;
+
+}
+
+.navbar li a{
+
+    text-decoration: none;
+
+    color: white;
+
+    f
+
+}
+
+section{
+
+    background-color: deeppink;
+
+}
+
+.cambio-section-dos {
+
+    background-color: chartreuse;
+
+    color: blue;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+  text-align: center;
+
+  text-decoration: underline;
+
+ 
+
+}
+
+#cambio-id{
+
+    background-color: aqua;
+
+}
+
+/* la id se pude usar solo una vez */
+

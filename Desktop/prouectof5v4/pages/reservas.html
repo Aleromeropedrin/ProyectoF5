@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVAS</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="../assets/imagenes/logo.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="grid-nosotros">
+            <div class="logo">
+                <img src="../assets/imagenes/logo.png" alt="logo" class="logo">
+            </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="../index.html">INICIO</a></li>
+                        <li><a href="./nosotros.html">NOSOTROS</a></li>
+                        <li><a href="./reservas.html">RESERVAS</a></li>
+                        <li><a href="./novedades.html">NOVEDADES</a></li>
+                        <li><a href="./rse.html">RSE</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+        <main>
+            <div class="titulo">
+                <h1>COMPLEJO CENTENARIO</h1>
+            </div>
+            <div class="cards-flexmain">
+            <form action="mailto:alero@montetideo.com.uy" method="post" enctype="text/plain">
+                    <fieldset class="form">
+                        <h2>Rellenar formulario completo:</h2>
+                        <ul>
+                            <li>
+                                <label id="Nombre" for="Nombre">Nombre:</label>
+                                <input class="input" id="Nombre" type="text" required width="400px">
+                            </li>
+                            <li>
+                                <label id="primer" for="primer">Primer Apellido:</label>
+                                <input class="input" id="primer" type="text" required width="300px">
+                            </li>
+                            <label id="Segundo" for="Segundo">Segundo Apellido:</label>
+                            <input class="input" id="Segundo" type="text" required width="300px">
+                            <li>
+                                <label id="mail" for="mail">E-mail de contacto:</label>
+                                <input class="input" id="mail" type="text" name="mail" placeholder="" required
+                                    pattern="^[a - z0-9!#$%&'*+/=?^_ `{|}~-]+(?:\.[a - z0-9!#$%&'*+/=?^_ `{|}~-]+)*@(?:[a - z0-9-]* [a - z0-9-])?$">
+                            </li>
+                            <li>
+                                <label id="Mensaje" for="Mensaje">Mensaje: <span>*plantea tu reserva</span></label>
+                            </li>
+                            <li>
+                                <textarea class="input" id="Mensaje" name="Mensaje" cols="30" rows="10"
+                                    placeholder="Escribe tu mensaje...."></textarea>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input id="check" type="checkbox" required>
+                                    <a href="#">He leido y acepto la politica de privacidad</a>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="contactar"></label>
+                                <button style="background-color: rgb(238, 167, 75);" type="submit">CONTACTAR</button>
+                            </li>
+                            <li>
+                                <label for="reset"></label>
+                                <button style="background-color: rgb(218, 212, 214); " type="submit">Reiniciar</button>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="cardspie">
+                <div>
+                    <a
+                        href="https://www.google.com/maps/place/Estadio+Centenario/@-34.8947883,-56.1560413,17z/data=!3m1!4b1!4m6!3m5!1s0x959f81021a293c9f:0x47c23b3c464091c1!8m2!3d-34.8947883!4d-56.1534664!16s%2Fm%2F0268cc0?authuser=0&entry=ttu">
+                    <img src="../assets/redesiconos/marcador-de-ubicacion.png" alt="mapa"></a>
+                    <p>Pablo de Maria 2323 Montevideo-Uruguay</p>
+                </div>
+                <div>
+                    <a href="https://wa.me/+598099336133">
+                    <img src="../assets/redesiconos/whatsapp.png" alt="wsp"></a>
+                    <p>+598099336133</p>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com">
+                    <img src="../assets/redesiconos/instagram.png" alt="ig"></a>
+                    <a href="https://www.facebook.com">
+                    <img src="../assets/redesiconos/facebook.png" alt="fc"></a>
+                </div>
+            </div>
+    </footer>
+    </div>
+</body>
+
+</html>

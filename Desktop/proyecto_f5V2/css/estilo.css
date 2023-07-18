@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red
+}
+
+body {
+    background-image: url("../assets/imagenes/fondo_cancha.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.logo {
+    top: 7%;
+    left: 3%;
+    width: 150px;
+}
+
+
+header {
+    background-image: url("../assets/imagenes/arcodos.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.encabezado {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1700px;
+    top: 50%;
+}
+
+/*TITULO*/
+.titulo {
+    background-color: rgb(85, 143, 160);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Menu*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    background-color: black;
+    justify-content: center;
+    margin: auto;
+}
+
+.menu li a {
+    display: block;
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgb(85, 171, 197);
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 2px;
+}
+
+[class^="cards"] {
+    width: 120px;
+    height: 200px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.cardsfutbol5 {
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 380px;
+    border-radius: 15%;
+}
+
+li {
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+
+/*Actividades*/
+.cardsactividades {
+    position: absolute;
+    top: 110%;
+    left: 130%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 380px;
+    border-radius: 15%;
+}
+
+.actividades li {
+    list-style-type: none;
+}
+
+.cardseventosdos {
+    position: absolute;
+    top: 110%;
+    left: 205%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 380px;
+    border-radius: 15%;
+}
+
+.eventosdos li {
+    list-style-type: none;
+}
+
+/*Nosotros*/
+
+.cardsbalon {
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    width: 220px;
+    height: 390px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.balon h2 {
+    font-size: 20px;
+    color: rgb(30, 31, 33);
+}
+
+.danzayyo {
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardsdanzayyoga {
+    position: absolute;
+    top: 50%;
+    left: 220%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    width: 220px;
+    height: 390px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.danzayyoga h2 {
+    font-size: 35px;
+    color: rgb(30, 31, 33);
+}
+
+.eventos {
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardseventos {
+    position: absolute;
+    top: 50%;
+    left: 205%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    width: 220px;
+    height: 390px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardseventos h2 {
+    font-size: 35px;
+    color: rgb(30, 31, 33);
+}
+
+.nosotros {
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(10, 10, 10);
+    background-color: rgb(245, 245, 245);
+    width: 250px;
+    height: 300px;
+    border-radius: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    margin-bottom: 10px;
+}
+
+/*NOVEDADES*/
+.cardscontenedoruno {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    top: 35%;
+    left: 55%;
+}
+
+.cardstexto {
+    position: absolute;
+    top: -5%;
+    left: 140%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: black;
+    background-color: rgb(183, 198, 193);
+    width: 450px;
+    height: auto;
+}
+
+.cardscontenedordos {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    top: 115%;
+    left: 70%;
+}
+
+.cardstextodos {
+    position: absolute;
+    top: 5%;
+    left: -75%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: black;
+    background-color: rgb(183, 198, 193);
+    width: 300px;
+    height: auto;
+}
+
+/*Responsabilidad Social Epresarial*/
+.vision {
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardsvision {
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 220px;
+    height: 320px;
+    border-radius: 10%;
+    font-family: Pluto Medium Italic;
+}
+
+.cardsvision h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+    ;
+}
+
+.mision {
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardsmision {
+    position: absolute;
+    top: 49%;
+    left: 195%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 220px;
+    height: 390px;
+    border-radius: 10%;
+    font-family: Pluto Medium Italic;
+}
+
+.mision h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+
+.valores {
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardsvalores {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 220px;
+    height: 320px;
+    border-radius: 10%;
+    font-family: Pluto Medium Italic;
+}
+
+.valores h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+
+/*FORMULARIO RESERVAS*/
+.form {
+    background-color: rgb(13, 13, 13);
+    width: 400px;
+    height: auto;
+    top: 27%;
+    left: 30%;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.form li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+/*PIE DE PAG FIJO*/
+.cardspie {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #891a1a;
+}

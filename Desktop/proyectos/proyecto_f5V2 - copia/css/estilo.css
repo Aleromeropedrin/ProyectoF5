@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/imagenes/fondo_cancha.png");
+    background-repeat: repeat;
+    background-size: cover;
+    }
+
+header {
+    background-image: url("../assets/imagenes/arcodos.jpg");
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+        }
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        "logo nav nav ."
+        "logo nav nav ."
+        "titulo titulo titulo titulo"; 
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: 100px 1fr 1fr 60px;
+    justify-content: center;
+    place-items: center;
+    align-items:center;
+    width: 100%;
+    height: 100vh;
+}
+.logo {
+    grid-area: logo;
+    margin-top: 25px;
+    align-items: center;
+    width: 150px;
+    justify-content: auto;
+    }
+
+/*TITULO*/
+.titulo {
+    grid-area: titulo;
+    background-color: aqua;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    width: 100%;
+    height: 40px;
+    top: 45%
+}
+
+/*Menu*/
+.menu {
+    grid-area: nav;
+    list-style-type: none;
+    margin: 15px;
+    padding: 0%;
+    overflow: hidden;
+    justify-content: center;
+    }
+
+.menu li {
+    float: left;
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+.menu li a {
+    color: rgb(249, 249, 249);
+    text-align: justify;
+    padding: 28px 16px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.menu li a:hover {
+    background-color: rgb(85, 171, 197);
+    }
+
+
+
+main {
+    display: grid;
+    grid-template-areas:
+        "futbol actividades eventos ."
+        "futbol actividades eventos ."
+        "futbol actividades eventos ."; 
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items:center;
+    width: 100%;
+    height: 180px;
+    }
+/*INICIO*/
+.cardsfutbol5 {
+    grid-area: futbol;
+    margin-top: 5%;
+    background-color: rgb(141, 238, 231);
+    font-family: sans-serif;
+    padding-left: 30px;
+    width: 200px;
+    height: 380px;
+    top: 15%;
+}
+
+li {
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+
+.cardsactividades {
+    grid-area: actividades;
+    justify-content: center;
+    background-color: rgb(177, 137, 242);
+    font-family: sans-serif;
+    padding-left: 30px;
+    width: 200px;
+    height: 380px;
+}
+.actividades li {
+    list-style-type: none;
+    }
+
+.actividadesfuente h2 {
+    font-size:25px;
+    color: rgb(25, 24, 24);
+} 
+.cardseventosdos {
+    grid-area: eventos;
+    column-gap: 60px;
+    justify-content: center;
+    background-color: rgb(141, 238, 231);
+    font-family: sans-serif;
+    padding-left: 30px;
+    width: 200px;
+    height: 380px;
+}
+
+.eventosdos li {
+    list-style-type: none;
+}
+
+/*Nosotros*/
+
+.cardsbalon {
+    align-content: center;
+    background-color: rgb(141, 238, 231);
+    margin-bottom: 20%;
+    font-family: sans-serif
+}
+
+.balon h2 {
+    font-size:30px;
+    color: rgb(6, 37, 98);
+}
+
+
+.cardsdanzayyoga {
+    align-content: center;
+    background-color: rgb(141, 238, 231);
+    margin-bottom: 20%;
+    font-family: sans-serif
+}
+
+
+.danzayyoga h2 {
+    font-size: 30px;
+    color: rgb(6, 37, 98);
+}
+
+
+.cardseventos {
+    align-content: center;
+    background-color: rgb(141, 238, 231);
+    margin-bottom: 20%;
+    font-family: sans-serif
+}
+
+.cardseventos h2 {
+    font-size: 30px;
+    color: rgb(6, 37, 98);
+}
+
+.nosotros {
+    align-content: center;
+    align-items: baseline;
+    background-color: rgb(141, 238, 231);
+    margin-bottom: 20%;
+    font-family: sans-serif;
+    }
+
+/*NOVEDADES*/
+.cardscontenedoruno {
+    display: inline-block;
+    
+}
+
+.cardstexto {
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: black;
+    background-color: rgb(183, 198, 193);
+    width: 450px;
+    height: auto;
+}
+
+
+.cardstextodos {
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: black;
+    background-color: rgb(183, 198, 193);
+    width: 300px;
+    height: auto;
+}
+
+/*Responsabilidad Social Epresarial*/
+
+.cardsvision {
+    align-content: center;
+    background-color: rgb(141, 238, 231);
+    margin-bottom: 20%;
+    font-family: Pluto Medium Italic;
+}
+
+.cardsvision h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+    ;
+}
+
+.cardsmision {
+    align-content: center;
+    background-color: rgb(141, 238, 231);
+    margin-bottom: 20%;
+    font-family: Pluto Medium Italic;
+}
+
+.mision h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+
+.cardsvalores {
+        align-content: center;
+        background-color: rgb(141, 238, 231);
+        margin-bottom: 20%;
+        font-family: Pluto Medium Italic;
+    }
+
+.valores h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+
+/*FORMULARIO RESERVAS*/
+.form {
+    align-content: stretch;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    text-align: center;
+}
+
+.form li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+/*PIE DE PAG FIJO*/
+.cardspie {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #891a1a;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:(100px 100px) ;
+    background-color: #161614;
+    justify-items: start;
+    align-items: center;
+    width: 100%;
+    grid-row-gap: 10px;
+}
+

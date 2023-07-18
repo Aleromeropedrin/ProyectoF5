@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    background-image: url("../assets/imagenes/fondo_cancha.png");
+}
+
+.logo {
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    width: 150px;
+}
+
+header{
+    background-image: url("../assets/imagenes/arcodos.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.encabezado {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+}
+/*TITULO*/
+.titulo {
+    background-color: rgb(85, 143, 160);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Menu*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    background-color: black;
+}
+
+.menu li a {
+    display: block;
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgb(85, 171, 197);
+}
+
+.cardsfutbol5 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 220px;
+    height: 300px;
+    border-radius: 15%;
+}
+
+li {
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+
+/*Actividades*/
+.cardsactividades {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 280px;
+    border-radius: 15%;
+}
+
+.cardsactividades li {
+    list-style-type: none;
+}
+
+.cardseventos {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 15%;
+}
+
+.cardseventos li {
+    list-style-type: none;
+}
+
+/*Nosotros*/
+.balon {
+    position: absolute;
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+.cardbalon {
+    position: absolute;
+    top: 57%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:  rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    width: 220px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardbalon h2 {
+    font-size:20px;
+    color: rgb(30, 31, 33);
+}
+
+.danzayyo {
+    position: absolute;
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.danzayyoga {
+    position: absolute;
+    top: 48%;
+    left:220%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    width: 220px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.danzayyoga h2 {
+    font-size: 35px;
+    color: rgb(30, 31, 33);
+}
+.event {
+    position: absolute;
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardevento {
+    position: absolute;
+    top: 50%;
+    left:220%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    width: 220px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardevento h2 {
+    font-size: 35px;
+    color: rgb(30, 31, 33);
+}
+.nosotros {
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(10, 10, 10);
+    background-color: rgb(245, 245, 245);
+    width: 250px;
+    height: 300px;
+    border-radius: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    margin-bottom: 10px;
+}
+/*NOVEDADES*/
+.contenedor {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    top: 35%;
+    left: 35%;
+}
+.contenedor2 {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    top: 170%;
+    left: 5%;
+}
+.texto {
+    position: absolute;
+    top: 10%;
+    left: 155%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: black;
+    background-color: rgb(183, 198, 193);
+    width: 300px;
+    height: auto;
+}
+/*Responsabilidad Social Epresarial*/
+.vision {
+    position: absolute;
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+.cardvision {
+    position: absolute;
+    top: 54%;
+    left:25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 220px;
+    height: 320px;
+    border-radius: 10%;
+    font-family: Pluto Medium Italic;
+    }
+
+.cardvision h2 {
+    font-size:45px;
+    color: rgb(8, 38, 93);;
+}
+
+.mision {
+    position: absolute;
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardmision {
+    position: absolute;
+    top:48%;
+    left:195%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 220px;
+    height: 320px;
+    border-radius: 10%;
+    font-family: Pluto Medium Italic;
+}
+
+.mision h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+.valores {
+    position: absolute;
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardvalores {
+    position: absolute;
+    top: 50%;
+    left:210%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 220px;
+    height: 320px;
+    border-radius: 10%;
+    font-family: Pluto Medium Italic;
+}
+
+.cardvalores h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+
+/*FORMULARIO*/
+.form {
+    background-color: rgb(13, 13, 13);
+    width: 400px;
+    height: auto;
+    top: 25%;
+    left: 30%;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.form li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.pie {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 02px;
+    color: white;
+    text-align: center;
+}
+.pieuno {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 02px;
+    color: white;
+    text-align: center;
+}

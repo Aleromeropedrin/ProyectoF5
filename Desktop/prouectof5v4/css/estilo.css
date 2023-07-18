@@ -1,0 +1,396 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*
+    border: 1px solid red;*/
+}
+
+
+
+/*FLEX EN INDEX*/
+header {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-image: url("../assets/imagenes/arco.png");
+    background-repeat: no-repeat;
+}
+
+.logo {
+   
+    align-items: center;
+    width: 100px;
+}
+
+/*Menu*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+.menu li {
+    float: left;
+    background-color: black;
+    justify-content: center;
+    margin: auto;
+}
+
+.menu li a {
+    display: block;
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: left;
+}
+
+.menu li a:hover {
+    background-color: rgb(85, 171, 197);
+}
+
+.cards-flexmain
+    {
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 78px;
+    }
+    
+/*TITULO*/
+.titulo {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(85, 143, 160);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.section-cards{
+    display:flex;
+    padding: 28px;
+    height: auto;
+    width:  100vw;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.cardsfutbol5 {
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border-radius: 15%;
+    }
+
+li {
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+
+/*Actividades*/
+.cardsactividades {
+    color: white;
+    background-color: black;
+    border-radius: 15%;
+    height: auto;
+    }
+
+.actividades li {
+    list-style-type: none;
+}
+
+.cardseventosdos {
+    color: white;
+    background-color: black;
+    border-radius: 15%;
+}
+
+.eventosdos li {
+    list-style-type: none;
+}
+
+ /*GRID EN NOSOTROS*/
+   /*Nosotros*/
+.grid-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+    }
+    
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr;
+    justify-items: center;
+    padding: 44px;
+    }
+.titulo {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(85, 143, 160);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    align-items: center;
+}
+
+main {
+    background-image:url(../assets/imagenes/fondo_cancha.png);
+}
+
+.cardsbalon {
+    align-self: center;
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 62px;
+}
+
+.balon h2 {
+    font-size: 30px;
+    color: rgb(30, 31, 33);
+}
+
+.cardsdanzayyoga {
+    align-self: center;
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.danzayyoga h2 {
+    font-size: 40px;
+    color: rgb(30, 31, 33);
+}
+
+.cardseventos {
+    align-self: center;
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.cardseventos h2 {
+    font-size: 35px;
+    color: rgb(30, 31, 33);
+}
+
+.nosotros {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    background-color: rgb(245, 245, 245);
+    width: 250px;
+    height: auto;
+    border-radius: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+/*NOVEDADES*/
+.cardscontenedoruno {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    top: 35%;
+    left: 55%;
+}
+
+.cardstexto {
+    align-self: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(147, 155, 155);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 90px;
+}
+
+.cardscontenedordos {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    top: 115%;
+    left: 70%;
+    }
+
+.cardstextodos {
+    align-self: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(147, 155, 155);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 20px;
+}
+
+/*Responsabilidad Social Epresarial*/
+
+.encabezado ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado li {
+    margin-right: 5px;
+}
+
+.encabezado li:last-child {
+    margin-right: 0;
+}
+.cardsvision {
+    align-self: center;
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+}
+
+.cardsvision h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+
+.cardsmision {
+    align-self: center;
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.mision h2 {
+    font-size: 30px;
+    color: rgb(8, 38, 93);
+}
+
+
+.cardsvalores {
+    align-self: center;
+    text-align: center;
+    color: rgb(50, 5, 5);
+    background-color: rgb(141, 238, 231);
+    border-radius: 10%;
+    font-family: sans-serif;
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+}
+
+.valores h2 {
+    font-size: 45px;
+    color: rgb(8, 38, 93);
+}
+
+/*FORMULARIO RESERVAS*/
+.form {
+    background-color: rgb(13, 13, 13);
+    width: 400px;
+    height: auto;
+    top: 25%;
+    left: 30%;
+    color: white;
+    text-align: center;
+}
+
+.form li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+/*PIE DE PAG FIJO*/
+
+.cardspie {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    background: #891a1a;
+    justify-items:center ;
+    place-items: center;
+    align-self: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    gap:20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px){ 
+    .menu{
+        font-size: 9px;
+    }
+    .titulo{
+        font-size: 12px;
+    }
+    .cards-flexmain
+    {
+    font-size: 10px;
+    }
+    
+} 
+
+@media (max-width: 425px){
+
+.menu{
+        font-size: 9px;
+    }
+    .titulo{
+        font-size: 12px;
+    }
+    .section-cards {
+        flex-direction: column;
+        font-size: 10px;
+        display: flex;
+        
+    }
+
+}
